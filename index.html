@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:ital,wght@0,100;0,300;1,100&family=Sen&display=swap" rel="stylesheet">    <title>UFBS</title>
+</head>
+<body>
+    <nav>
+        <img id="logo" src="psu-logo.png" alt="logo">
+        <label for="">SEPO</label>
+        <ul>
+            <li><a id="a1" href="#top">Home</a></li>
+            <li><a id="a2" href="#about">About</a></li>
+        </ul>
+    </nav>
+    <div class="header">
+        <h1 id="sepo">
+            Special Events 
+            <br>
+            Protocol Office
+            <br>
+            
+        </h1>
+        
+        <div class="booking">
+            <form action="https://formsubmit.co/bacaltosbaryshnikov@gmail.com" method="POST" target="_blank">
+                <img src="psu-logo.png" alt="logo">
+                <h1>
+                    University Facility Booking System
+                </h1>
+                <label for="name">Name/Organization:</label>
+                <input type="text" id="name" name="Name/Organization" required="">
+                <label for="facilities">Select a facility:</label>
+                <select name="Facility" id="facilities" required="">
+                    <option value=""></option>
+                    <option value="Gym">Gym</option>
+                    <option value="Amphitheater">Amphitheater</option>
+                    <option value="PAC">PAC</option>
+                </select>
+                <label for="date-time">Select date and time:</label>
+                <input type="datetime-local" name="Date and Time" required="">
+                <label for="additional-message">Notes:</label>
+                <textarea id="message" name="Message" required=""></textarea>
+                <button type="submit">Book now!</button>
+            </form>
+
+        </div>
+    </div>
+    
+    
+</body>
+</html>
